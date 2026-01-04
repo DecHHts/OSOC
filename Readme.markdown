@@ -12,5 +12,7 @@ C文件夹用于存储E1阶段学习C语言时所完成的习题
 
 # 联系方式
 __仅限讨论“一生一芯”学习内容__
+
 WeChat: Dec27-HYX
+
 EMail: christopherhyx@outlook.com
