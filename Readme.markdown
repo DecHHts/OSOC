@@ -9,6 +9,8 @@
 LogisimFile文件夹用于存储F阶段使用Logisim软件完成的实验题目，主要包括制作的sCPU与mini-RISC-V处理器，F6阶段满足ADDI,JALR,ADD,LUI,LW,LBU,SW,SB八条基本指令，并实现“一生一芯”logo打印，成功文件为F6.circ，另外，F6Fail.circ存在bug且至今仍未找出
 ### C
 C文件夹用于存储E1阶段学习C语言时所完成的习题
+### HDLBits
+HDLBits文件夹用于存储E2阶段学习Verilog时所完成的题目，全部通过编译器验证
 
 # 联系方式
 __仅限讨论“一生一芯”学习内容__
