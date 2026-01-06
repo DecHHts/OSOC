@@ -1,0 +1,15 @@
+module top_module (
+    input clk,
+    input reset,
+    input [31:0] in,
+    output [31:0] out
+);
+    reg [31:0] temp_in;
+    always @(posedge clk) begin
+        temp_in <= in;
+        if(reset)
+            out <= 32'b0;
+        else
+            out <= temp_in&~in|out;
+    end
+endmodule
