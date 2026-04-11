@@ -1,15 +1,7 @@
 // a.c
 #include <stdio.h>
-#define MSG "Hello \
-world!\n"
-#define _str(x) #x
-#define _concat(a,b) a##b
-
-int main(){
-    printf(MSG /* "hi!\n" */);
-    #ifdef __riscv
-        printf("Hello RISC-V!\n");
-    #endif
-    _concat(pr,intf)(_str(RISC-V));
-    return 0;
+int main() {
+  int a[10] = {0};
+  printf("a[10] = %d\n", a[10]);
+  return 0;
 }

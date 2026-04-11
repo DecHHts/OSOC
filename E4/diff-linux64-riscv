@@ -1,0 +1,153 @@
+0a1,2
+> #define __amd64 1
+> #define __amd64__ 1
+3a6,7
+> #define __ATOMIC_HLE_ACQUIRE 65536
+> #define __ATOMIC_HLE_RELEASE 131072
+8a13
+> #define __CET__ 3
+12c17
+< #define __CHAR_UNSIGNED__ 1
+---
+> #define __code_model_small__ 1
+28a34,54
+> #define __DEC128_EPSILON__ 1E-33DL
+> #define __DEC128_MANT_DIG__ 34
+> #define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+> #define __DEC128_MAX_EXP__ 6145
+> #define __DEC128_MIN__ 1E-6143DL
+> #define __DEC128_MIN_EXP__ (-6142)
+> #define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+> #define __DEC32_EPSILON__ 1E-6DF
+> #define __DEC32_MANT_DIG__ 7
+> #define __DEC32_MAX__ 9.999999E96DF
+> #define __DEC32_MAX_EXP__ 97
+> #define __DEC32_MIN__ 1E-95DF
+> #define __DEC32_MIN_EXP__ (-94)
+> #define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+> #define __DEC64_EPSILON__ 1E-15DD
+> #define __DEC64_MANT_DIG__ 16
+> #define __DEC64_MAX__ 9.999999999999999E384DD
+> #define __DEC64_MAX_EXP__ 385
+> #define __DEC64_MIN__ 1E-383DD
+> #define __DEC64_MIN_EXP__ (-382)
+> #define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
+30c56,57
+< #define __DECIMAL_DIG__ 36
+---
+> #define __DECIMAL_BID_FORMAT__ 1
+> #define __DECIMAL_DIG__ 21
+98,101c125,128
+< #define __FLT64X_DECIMAL_DIG__ 36
+< #define __FLT64X_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966F64x
+< #define __FLT64X_DIG__ 33
+< #define __FLT64X_EPSILON__ 1.92592994438723585305597794258492732e-34F64x
+---
+> #define __FLT64X_DECIMAL_DIG__ 21
+> #define __FLT64X_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951F64x
+> #define __FLT64X_DIG__ 18
+> #define __FLT64X_EPSILON__ 1.08420217248550443400745280086994171e-19F64x
+106c133
+< #define __FLT64X_MANT_DIG__ 113
+---
+> #define __FLT64X_MANT_DIG__ 64
+108c135
+< #define __FLT64X_MAX__ 1.18973149535723176508575932662800702e+4932F64x
+---
+> #define __FLT64X_MAX__ 1.18973149535723176502126385303097021e+4932F64x
+113c140
+< #define __FLT64X_NORM_MAX__ 1.18973149535723176508575932662800702e+4932F64x
+---
+> #define __FLT64X_NORM_MAX__ 1.18973149535723176502126385303097021e+4932F64x
+133,139c160,163
+< #define __FP_FAST_FMA 1
+< #define __FP_FAST_FMAF 1
+< #define __FP_FAST_FMAF32 1
+< #define __FP_FAST_FMAF32x 1
+< #define __FP_FAST_FMAF64 1
+< #define __GCC_ATOMIC_BOOL_LOCK_FREE 1
+< #define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 1
+---
+> #define __FXSR__ 1
+> #define __GCC_ASM_FLAG_OUTPUTS__ 1
+> #define __GCC_ATOMIC_BOOL_LOCK_FREE 2
+> #define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
+141c165
+< #define __GCC_ATOMIC_CHAR_LOCK_FREE 1
+---
+> #define __GCC_ATOMIC_CHAR_LOCK_FREE 2
+146c170
+< #define __GCC_ATOMIC_SHORT_LOCK_FREE 1
+---
+> #define __GCC_ATOMIC_SHORT_LOCK_FREE 2
+148a173,175
+> #define __GCC_HAVE_DWARF2_CFI_ASM 1
+> #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
+> #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
+160a188
+> #define __HAVE_SPECULATION_SAFE_VALUE 1
+206,209c234,239
+< #define __LDBL_DECIMAL_DIG__ 36
+< #define __LDBL_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966L
+< #define __LDBL_DIG__ 33
+< #define __LDBL_EPSILON__ 1.92592994438723585305597794258492732e-34L
+---
+> #define __k8 1
+> #define __k8__ 1
+> #define __LDBL_DECIMAL_DIG__ 21
+> #define __LDBL_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951L
+> #define __LDBL_DIG__ 18
+> #define __LDBL_EPSILON__ 1.08420217248550443400745280086994171e-19L
+214c244
+< #define __LDBL_MANT_DIG__ 113
+---
+> #define __LDBL_MANT_DIG__ 64
+216c246
+< #define __LDBL_MAX__ 1.18973149535723176508575932662800702e+4932L
+---
+> #define __LDBL_MAX__ 1.18973149535723176502126385303097021e+4932L
+221c251
+< #define __LDBL_NORM_MAX__ 1.18973149535723176508575932662800702e+4932L
+---
+> #define __LDBL_NORM_MAX__ 1.18973149535723176502126385303097021e+4932L
+230a261,262
+> #define __MMX__ 1
+> #define __MMX_WITH_SSE__ 1
+244,265d275
+< #define __riscv 1
+< #define __riscv_a 2000000
+< #define __riscv_arch_test 1
+< #define __riscv_atomic 1
+< #define __riscv_c 2000000
+< #define __riscv_cmodel_medany 1
+< #define __riscv_cmodel_pic 1
+< #define __riscv_compressed 1
+< #define __riscv_d 2000000
+< #define __riscv_div 1
+< #define __riscv_f 2000000
+< #define __riscv_fdiv 1
+< #define __riscv_flen 64
+< #define __riscv_float_abi_double 1
+< #define __riscv_fsqrt 1
+< #define __riscv_i 2000000
+< #define __riscv_m 2000000
+< #define __riscv_mul 1
+< #define __riscv_muldiv 1
+< #define __riscv_xlen 64
+< #define __riscv_zicsr 2000000
+< #define __riscv_zifencei 2000000
+267a278,279
+> #define __SEG_FS 1
+> #define __SEG_GS 1
+275a288
+> #define __SIZEOF_FLOAT128__ 16
+276a290
+> #define __SIZEOF_FLOAT80__ 16
+289a304,307
+> #define __SSE__ 1
+> #define __SSE2__ 1
+> #define __SSE2_MATH__ 1
+> #define __SSE_MATH__ 1
+347a366,367
+> #define __x86_64 1
+> #define __x86_64__ 1
